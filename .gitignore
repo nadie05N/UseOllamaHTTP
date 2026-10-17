@@ -5,3 +5,7 @@ vc140.pdb
 .vscode/tasks.json
 Untitled-1.exe
 main.exe
+main.ilk
+.gitignore
+main.pdb
+main.obj

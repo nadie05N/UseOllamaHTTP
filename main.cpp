@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <string>
 #include "httplib.h"
 #include "json.hpp"
 
@@ -17,7 +18,7 @@ int main(){
     
     std::cout << "Input ..." << std::endl;
     std::string input;
-    std::cin >> input;
+    std::getline(std::cin, input);
     std::string req1 = R"({
     "model": "gemma4:e2b",
     "prompt": ")";
